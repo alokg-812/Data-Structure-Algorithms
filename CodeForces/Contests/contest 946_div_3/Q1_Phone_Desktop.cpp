@@ -5,7 +5,7 @@ int main() {
     cin.tie(NULL);
     int t;
     cin >> t;
-    while (t--) {
+    for(int z = 0 ; z<t;z++) {
         int x,y;
         cin >> x >> y;
         int count=0;
