@@ -7,7 +7,9 @@ int check(int a, int b, int c) {
     int n = diff*2;
     if(a>n || b>n || c>n) return -1;
     int opp = (c+n/2);
-    if(opp>n) opp -=n;
+    if(opp>n){ 
+        opp -=n;
+    }
     return opp;
 }
 
