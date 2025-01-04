@@ -23,5 +23,4 @@ int main(){
     um[50] = 900; //update
     cout<<um[50]<<endl;
     cout<<"Size: "<<um.size()<<endl;
-    
 }
