@@ -3,11 +3,11 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int T; //number of test cases
-    cout<<"Enter T: ";
-    cin>>T;
+	int t;
+    cout<<"Enter t: ";
+    cin>>t;
     cout<<"Input number of test cases: "<<T<<endl;;
-	for(int i = 0 ; i < T ; i++){
+	for(int i = 0 ; i < t ; i++){
 	    int N;
         cout<<"Enter N: ";
         cin>>N; // N denotes the total number of Islands.
