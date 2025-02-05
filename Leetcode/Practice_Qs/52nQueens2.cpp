@@ -1,3 +1,6 @@
+https://leetcode.com/problems/n-queens-ii/description/
+https://leetcode.com/problems/n-queens-ii/submissions/1531783172/
+
 #include <bits/stdc++.h>
 using namespace std;
 bool isValid(vector<vector<char>> &mat, int i, int j) {
