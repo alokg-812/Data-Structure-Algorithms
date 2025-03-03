@@ -1,8 +1,6 @@
 https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 
 
-
-
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
