@@ -1,4 +1,5 @@
 # 1047: Remove All Adjacent Duplicates In String
+## Difficulty: `Easy`
 
 You are given a string `s` consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.
 
