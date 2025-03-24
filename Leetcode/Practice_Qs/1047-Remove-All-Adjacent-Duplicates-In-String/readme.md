@@ -24,5 +24,5 @@ Output: "ay"
 ```
 
 ## Constraints:
-- `1 <= s.length <= 10^5`
+- `1 <= s.length <= 10⁵`
 - `s` consists of lowercase English letters.
