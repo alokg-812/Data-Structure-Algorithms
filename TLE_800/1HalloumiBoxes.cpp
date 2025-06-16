@@ -1,26 +1,15 @@
-#include <bits/stdc++.h>
-using namespace std;
-bool check(vector<int>& arr, int n){
-    for(int i = 1; i < n; i++){
-        if(arr[i]<arr[i - 1]){
-            return false;
-        }
-    }
-    return true;
-}
+def check(arr, n):
+    for i in range(1, n):
+        if arr[i] < arr[i - 1]:
+            return False
+    return True
 
-
-int main(){
-    int t;
-    cin>>t;
-    while(t--){
-        int n,k;
-        cin>>n>>k;
-        vector<int>arr(n);
-        for(int i = 0;i<n;i++){
-            cin>>arr[i];
-        }
-        if(k>=2 or check(arr,n)) cout<<"YES\n";
-        else cout<<"NO\n";
-    }
-}
+t = int(input())
+for _ in range(t):
+    n, k = map(int, input().split())
+    arr = list(map(int, input().split()))
+    
+    if k >= 2 or check(arr, n):
+        print("YES")
+    else:
+        print("NO")
