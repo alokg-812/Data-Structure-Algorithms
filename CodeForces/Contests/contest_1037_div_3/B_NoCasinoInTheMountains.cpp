@@ -1,4 +1,7 @@
-[question](https://codeforces.com/contest/2126/problem/B)
+/*
+ link to question:
+ https://codeforces.com/contest/2126/problem/B
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
