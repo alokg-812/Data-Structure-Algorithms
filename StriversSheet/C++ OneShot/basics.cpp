@@ -45,13 +45,6 @@ int main() {
     }
     cout << endl;
 
-    // 6. Array Example
-    int numbers[3] = {10, 20, 30};
-    cout << "Array elements: ";
-    for (int i = 0; i < 3; i++) {
-        cout << numbers[i] << " ";
-    }
-    cout << endl;
 
     // 7. While Loop Example
     int count = 3;
