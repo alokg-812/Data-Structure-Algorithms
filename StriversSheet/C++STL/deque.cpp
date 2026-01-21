@@ -19,7 +19,7 @@ int main()
     dq.push_front(40);
     dq.push_front(50);
     
-    cout<<"The elements in the deque are: ";
+    cout<<"The elements in the deque are following: ";
     printdeque(dq);
     cout<<"The size of the deque is: "<<dq.size()<<endl;
     cout<<"The first element in the deque: "<<dq.front()<<endl;
@@ -30,5 +30,4 @@ int main()
     cout<<"Deleting the last element"<<endl;
     dq.pop_back();
     printdeque(dq);
-    
 }
