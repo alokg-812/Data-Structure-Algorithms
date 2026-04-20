@@ -1,8 +1,8 @@
 class Solution {
 public:
     int maxDistance(vector<int>& colors) {
-        int st = 0, n = colors.size(), end = n-1;
-        if(colors[st] != colors[end]){
+        int n = colors.size();
+        if(colors[0] != colors[n-1]){
             return n-1;
         }
         int i = 0,j=n-1;
