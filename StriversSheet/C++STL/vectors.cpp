@@ -13,8 +13,8 @@ int main() {
   for (auto it = v.begin(); it != v.end(); it++)
     cout << * it << " ";
 
-  cout << "\nThe front element of the vector: " << v.front();  //The front element of the vector
-  cout << "\nThe last element of the vector: " << v.back(); //The last element of the vector
+  cout << "\nThe front element of the vector: " << v.front(); 
+  cout << "\nThe last element of the vector: " << v.back();
   cout << "\nThe size of the vector: " << v.size();  //The size of the vector
   cout << "\nDeleting element from the end: " << v[v.size() - 1];  //Deleting element from the end
   v.pop_back();
